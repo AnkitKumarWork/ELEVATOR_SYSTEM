@@ -1,4 +1,5 @@
 # Elevator System Design
+![image](https://github.com/user-attachments/assets/dc3a6757-dc8f-4beb-8002-8e3c8ae586ba)
 
 ## Project Overview
 This project involves the design and implementation of a four-floor elevator system using Cadence EDA tools. The system is designed to operate at a frequency of 100MHz and includes various modules to manage the elevator's operations, ensure safety, and provide alerts in case of anomalies. The design follows a single input floor request approach, processing one floor request at a time.
@@ -19,12 +20,19 @@ This project involves the design and implementation of a four-floor elevator sys
 ## Module Descriptions
 ### Elevator_Top_Module
 This is the top-level module that integrates all the sub-modules, including the alert system and controller. It processes inputs from the weight machine and sensors to control the elevator's movement and ensure safe operation.
-
+![image](https://github.com/user-attachments/assets/7e04a4ef-9f1f-4c29-a114-3c0aacb04f43)
 ### alert_system
 The alert system module is responsible for handling alerts and notifications. It monitors the weight inside the elevator and the status of the doors and floors. If any anomalies or emergencies are detected, it triggers appropriate alerts to notify the users and maintenance personnel.
 
 ### controller
 The controller module manages the control logic for the elevator operations. It processes the inputs from the weight machine and sensors to determine the elevator's movement. The controller ensures that the elevator operates smoothly and safely, coordinating the opening and closing of doors and the movement between floors.
+
+## Additional Specifications
+- **Elevator Controller:** Handles requests to move between three floors.
+- **Door Alert:** Activates if the door remains open for more than 3 minutes.
+- **Weight Alert:** Activates if the weight status is greater than 4500lbs.
+- **Movement Logic:** The elevator decides its moving direction based on the requested floor and uses sensors to detect floor levels. It gives an output `complete = 1` when it reaches the requested floor. The direction output is high when moving upwards and low when moving downwards.
+
 
 ## Dependencies
 - **alert_system.v:** Verilog file for the alert system module.
@@ -41,7 +49,7 @@ To get started with the project, follow these steps:
 2. Open the project in your preferred Verilog development environment.
 3. Review the module files and ensure all dependencies are included.
 4. Compile and simulate the design to verify its functionality.
-5. Implement the design on an FPGA to test it in a real-world scenario.
+
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate documentation.
