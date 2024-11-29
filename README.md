@@ -37,6 +37,7 @@ The controller module manages the control logic for the elevator operations. It 
 ## Dependencies
 - **alert_system.v:** Verilog file for the alert system module.
 - **controller.v:** Verilog file for the controller module.
+![image](https://github.com/user-attachments/assets/3adcaf84-30e2-439e-8edc-6ce5fde99fec)
 
 ## Additional Comments
 - Ensure all modules are properly instantiated and connected within the top module.
