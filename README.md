@@ -7,11 +7,11 @@ This project involves the design and implementation of a four-floor elevator sys
 ## Design Specifications
 - **Operating Frequency:** 100MHz
 - **Number of Floors:** 4
-- **Single Input Floor Request Design:** The system processes one floor request at a time.
+- **Single Input Floor Request Design:** The system processes one-floor request at a time.
 - **Modules Included:**
   - **Elevator_Top_Module:** The top-level module that integrates all sub-modules.
   - **alert_system:** Handles alerts and notifications for the elevator system.
-  - **controller:** Manages the control logic for the elevator operations.
+  - **Controller:** Manages the control logic for the elevator operations.
 - **Inputs:**
   - **weight_alert:** Signal received from a mechanical weight machine to monitor the weight inside the elevator.
   - **door_status:** Signal received from sensors to monitor the status of the elevator doors.
@@ -54,8 +54,5 @@ To get started with the project, follow these steps:
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate documentation.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ## Contact
-For any questions or inquiries, please contact [Your Name] at [Your Email].
+For any questions or inquiries, please contact Ankit kumar at ankitkumar.work121@gmail.com.
