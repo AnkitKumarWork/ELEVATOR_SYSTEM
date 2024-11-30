@@ -53,7 +53,7 @@ To get started with the project, follow these steps:
 
 
 ## Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate documentation.
+I'm currently working on optimizing Timing and design constraints to implement full RTL to GDS-II flow. If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate documentation.
 
 ## Contact
 For any questions or inquiries, please contact Ankit kumar at ankitkumar.work121@gmail.com.
